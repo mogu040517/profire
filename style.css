@@ -18,3 +18,19 @@ form input, form textarea {
   padding: 0.5em;
   margin-bottom: 1em;
 }
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* アイコンとテキストの間の余白 */
+}
+
+.profile-icon {
+  width: 120px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.profile-text {
+  flex: 1; /* テキスト側は広がる */
+}

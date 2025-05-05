@@ -16,14 +16,34 @@
       </nav>
     </header>
     <main>
-      <section>
-        <h1>自己紹介</h1>
-        <p>大学生・プログラマー志望｜Webアプリ開発を勉強中（スキル・資格掲載）</p>        
+      <section class="profile">
+        <div class="profile-container">
+          <img src="images.png" alt="アイコン" class="profile-icon">
+          <div class="profile-text">
+            <p>プログラマー志望で現在はWebアプリ開発、データサイエンスなどを勉強中の学生です。塾講師でバイトしており、休日は家でのんびりするのが好きで、たまにディズニーに行って気分転換しています。</p>
+            <p>東京電機大学システムデザイン工学部情報システム学科 小倉聖雅</p>
+          </div>
+        </div>
+        <ul>
+          <li>高校入学（2020, 令和2年, 4月）</li>
+          <li>高校卒業（2023, 令和5年, 3月）</li>
+          <li>東京電機大学システムデザイン工学部情報システム学科 入学（2023, 令和5年, 4月）</li>
+          <li>東京電機大学システムデザイン工学部情報システム学科 卒業予定（2027, 令和9年, 3月）</li>
+        </ul>
+        <h4>資格一覧</h4>
+        <ul>
+          <li>実用数学技能検定 準1級</li>
+          <li>実用英語技能検定 2級</li>
+          <li>日本漢字能力検定 3級</li>
+          <li>基本情報技術者試験</li>
+          <li>FP3級</li>
+          <li>TOEIC 400点</li>
+        </ul>  
       </section>
+      
       <section>
-        <h1>作ったアプリ</h1>
-        <a href="https://example.com/apuri">アプリ</a>
-        <a href="https://example.com/blog1">ブログ記事1</a>
+        <h1>自作アプリ</h1>
+        <a href="https://example.com/apuri">アプリ1</a>
       </section>
       <section>
         <h1>ブログ</h1>
@@ -34,11 +54,12 @@
       </section>
       <section>
         <h1>お問い合わせ</h1>
-        <form action="https://formspree.io/f/your-form-id" method="POST">
+        <form action="https://formspree.io/f/xanooyyn" method="POST">
           <input type="text" name="name" placeholder="お名前" required>
           <input type="email" name="email" placeholder="メールアドレス" required>
           <textarea name="message" rows="5" placeholder="お問い合わせ内容" required></textarea>
           <button type="submit">送信</button>
+          <input type="hidden" name="_next" value="https://yourportfolio.com/thanks.html">
         </form>
       </section>
     </main>
